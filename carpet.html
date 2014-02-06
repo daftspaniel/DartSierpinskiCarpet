@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sierpinski Carpet</title>
+    <link rel="stylesheet" href="carpet.css">
+  </head>
+  <body>
+    
+    <p style="margin-left:15px">
+    <b>Size</b>  <input type="range" min="1" max="40" id="BlockSize" value="20  " style="width:200px;" /> 
+    <b>Color</b>  <input type="range" min="-250" max="750" id="ShiftSize" value="250" style="width:200px;" /> 
+    </p>
+    
+    <canvas id="surface" width="1536" height="1536" style="position:relative;top:15px;left:15px;border:0px;border-style: solid;"></canvas>
+
+    <script type="application/dart" src="carpet.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>
