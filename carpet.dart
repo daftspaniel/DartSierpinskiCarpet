@@ -66,5 +66,5 @@ bool isCarpet(int x, int y){
     x = x ~/ 3;
     y = y ~/ 3;
   }
-    
+  return true;
 }
