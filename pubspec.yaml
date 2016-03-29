@@ -1,0 +1,4 @@
+name: sierpinkskicarpte
+description: A web application
+dependencies:
+  browser: any
